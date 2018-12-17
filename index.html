@@ -2,78 +2,56 @@
 <html lang="en">
 
 <head>
-      <title>Crystal Collector</title>
-     
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  
-      <script
-          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-      <script type="text/javascript" src="assets/javascript/game.js"></script>
-      <link rel="stylesheet" href="assets/css/reset.css">
-    </head>
-
-
-  <title>Crystal Game</title>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/style" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script 	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/style" href="assets/css/style.css" />
 </head>
-
 <body>
 
 
-  <div class="row">
-    <p>This is a game of plants that each reveal a different number which you must add in order to match a total shown on the page. </p>
-    <div class="alert">
-      <!--The top row will show the win or loss status-->
-      Wins:
-      Losses:
-    </div>
-    <div class = img-thumbnail>
-      <button><img scr="assets/images/AirPlant.jpg" alt="AirPlant"></button>
-      <button><img src="assets/images/Bamboo.jpg" alt="Bamboo"></button>
-      <button><img src="assets/images/Spider.jpg" alt="Spider"></button>
-      <button><img src="assets/images/Jade.jpg" alt="Jade"></button>
-    </div>
+  
+      <!-- A fluid container that uses the full witdh -->
+    
+    
+
+    
+    
+    
     <!--How to import the value from game.js-->
-    <div class = score>Your total score is userCount</div>
+<div class="container-fluid" mb-2>
+<div class="card">
+  <img class="card-img-top">
+    <h4>You are about to play a game to click a picture which will add a number to your total.  You will have different amounts in each picture.  You have to use the amounts from the pictures to add up to the shown at the bottom.</h4>
+    <div class="row">
 
-    <div>
-      <script>
-      function randomTotal () {
-
-      }
-      
-      </script>
     </div>
+  <div class="card-body">
+    <h4 class="card-title"></h4>
+    <p class="card-text">
+      Number to Get To: 
+    </p>
+    <div class="btn-group" role="group" aria-label="Basic example" m-5>
+      <button type="button" class="btn btn-tertiary"><img scr="assets/images/ball.jpg" alt="Thumbnail image"></button>
+      <button type="button" class="btn btn-secondary"><img src="assets/images/ice.jpg" alt="Thumbnail image"></button>
+      <button type="button" class="btn btn-secondary"><img src=".assets/images/orangeice.jpg" alt="Thumbnail image"></button>
+      <button type="button" class="btn btn-secondary"><img src=".assets/images/rocks.jpg" alt="Thumbnail image"</button>
+    
+    </div>   
+    Your total score is: 
   </div>
+</div>
 
-    
-
-  <script>
-     Math.floor(Math.random() * 120) + 19;
-    function getRandomArbitrary() {
-      console.log("This is from index.html of ");
-    }
-
-    function getRandom2() {
-
-    }
-
-    function getRandomInt() {
+</div>   
       
-      console.log("This is getRandomInt " + random);
-    }
 
-    function randomIntFromInterval() {
-      min = 19;
-      max = 120;
-      console.log("In html the random number is ")
-    }
+  
 
-    var x = 120; // can be any number
-    var rand = Math.floor(Math.random() * x) + 1;
     
-    
-  </script>
-  <h1> This is the random number</h1>
+
+  
 </body>
 
 </html>
