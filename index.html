@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-	<title>Crystal Collector</title>
-	<link rel="stylesheet" type="text/style" href="assets/css/reset.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script 	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
-  <link rel="stylesheet" type="text/style" href="assets/css/style.css" />
+  <title>Crystal Collector</title>
+
+<!--	<link rel="stylesheet" type="text/style" href="assets/css/reset.css" />-->
+<link rel="stylesheet" type="text/style" href="assets/css/style.css" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"/>
+	
+  
 </head>
 <body>
-
-
   
       <!-- A fluid container that uses the full witdh -->
     
@@ -28,19 +28,22 @@
     <div class="row">
 
     </div>
+    <p class="card-text">
+      <h3>Number to Get To:</h3> 
+    </p>
   <div class="card-body">
     <h4 class="card-title"></h4>
-    <p class="card-text">
-      Number to Get To: 
-    </p>
-    <div class="btn-group" role="group" aria-label="Basic example" mb-5>
-        <button><img src="assets/images/Bamboo.jpg"style="transform:rotate(90deg); " alt="Bamboo" id="bamboo"></button>
-        <button><img src="assets/images/Spider.jpg" style="transform:rotate(90deg);" alt="Spider" id="spider"></button>
-        <button><img src="assets/images/Jade.jpg" style="transform:rotate(90deg);" alt="Jade"id ="jade"></button>
-        <button><img src="assets/images/AirPlant.jpg" style="transform:rotate(90deg);" alt="AirPlant"id ="airplant"></button>
+    
+    <div class="picture" role="group" aria-label="Basic example" mb-5>
+        
+        <img id = "ball" src="assets/images/ball.jpeg" alt="Responsive image" class = "imgcrys" style="width: 20%">
+        <img id = "ice" src="assets/images/ice.jpeg"  alt="ice" class="imgcrys" style="width: 20%">
+        <img id = "orangeIce" src="assets/images/orangeIce.jpeg"  alt="orange ice" class="imgcrys" style="width: 20%">
+       <img id = "rocks" src="assets/images/rocks.jpeg" alt="AirPlant" style="width: 20%" class="imgcrys" >
       
-    </div id = "your-score">   
-    Your total score is: 
+    </div>
+  <div id = "your-score" mb-6 text-align= "center">   
+    <h3>Your total score is:</h3>
   </div>
 </div>
 
@@ -51,7 +54,8 @@
 
     
 
-  
+<script 	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>

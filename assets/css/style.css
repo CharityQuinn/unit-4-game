@@ -8,30 +8,19 @@ width: 10%;
 height: 5%;
 }
 
-
-#airplant {
-  width: 320px;
-  bottom: 240px;
+.imgcrys{
+  width: 20% !important;
+  height: auto;
 }
 
-#jade {
-  width: 25px;
-  bottom: 25px;
-}
-
-#spider {
-  width: 25px;
-  bottom: 25px;
-}
-
-.btn-group {
-  width: 25px;
-  bottom: 25px;
+.picture {
+  width: 10%;
+  height: 30px;
 }
 
 .your-score {
-  float: left;
-  margin-top: 25px;
+  float: center;
+  margin-top: 53px;
   margin-bottom: 10;
   padding-top: 5px;
 }
