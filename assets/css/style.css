@@ -1,3 +1,14 @@
+.container-fluid {
+  background-color: blueviolet;
+  font-size: large;
+}
+
+h4, #your-score, .card-text {
+  background-color: pink;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
 .row {
 width: 48%;
 height: 40%;
@@ -14,14 +25,15 @@ height: 5%;
 }
 
 .picture {
-  width: 55%;
+  width: 50%;
   height: 50px;
   padding: 15px;
   margin: 10pt;
 }
 .card-body {
-  height: 50%
-
+  height: 75%;
+  background-color: blueviolet;
+  
 }
 
 .your-score {
