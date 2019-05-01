@@ -132,6 +132,7 @@ $(document).ready(function () {
 function reset() {
   wins = 0;
   losses = 0;
+  userTotal= 0;
   $("#clear").on("click", function (event) {
     $("#display").empty();
   });

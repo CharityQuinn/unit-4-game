@@ -25,15 +25,16 @@ height: 5%;
 }
 
 .picture {
-  width: 50%;
+  align-content: center;
+  width: 75%;
   height: 50px;
   padding: 15px;
-  margin: 10pt;
+  margin: 10px;
 }
 .card-body {
   height: 75%;
   background-color: blueviolet;
-  
+  align-content: center;
 }
 
 .your-score {
